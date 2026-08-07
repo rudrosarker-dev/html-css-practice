@@ -13,6 +13,10 @@
     margin-bottom: 30px;
   }
 
+  .Uber-btn:hover {
+    opacity: 0.8;  
+  }
+
   .Amazon-btn {
     background-color: rgb(255, 216, 20);
     border-radius: 10px;
@@ -21,6 +25,15 @@
     font-weight: bold;
     display: block;
     margin-bottom: 30px;
+    transition: background-color 0.15s;
+  }
+
+  .Amazon-btn:hover {
+    background-color: rgb(247, 202, 0);
+  }
+
+  .Amazon-btn:active {
+    background-color: rgb(240, 184, 0);
   }
 
   .GitHub-btn {
@@ -33,6 +46,11 @@
     font-size: 17px;
     display: block;
     margin-bottom: 30px;
+    transition: box-shadow 0.15s;
+  }
+
+  .GitHub-btn:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
   }
 
   .Bootstrap-btn {
@@ -46,6 +64,14 @@
     margin-right: 6px;
   }
 
+  .Bootstrap-btn:hover {
+    background-color: rgb(114, 70, 159);
+  }
+
+  .Bootstrap-btn:active {
+    background-color: rgb(107, 58, 139);
+  }
+
   .Download-btn {
     font-weight: bold;
     display: inline-block;
@@ -54,8 +80,13 @@
     border-radius: 5px;
     height: 40px;
     width: 110px;
-    color: rgb(108, 117, 125);
+    color: rgb(29, 30, 31);
     margin-bottom: 30px;
+  }
+
+  .Download-btn:hover {
+    background-color: rgb(59, 58, 58);
+    color: white;
   }
 
   .Linedln-btn {
@@ -70,6 +101,11 @@
     vertical-align: middle;
   }
 
+  .Linedln-btn:hover {
+    background-color: rgb(8, 82, 156);
+  }
+
+
   .Save-btn {
     display: inline-block;
     background-color: white;
@@ -82,8 +118,12 @@
     font-weight: bold;
     vertical-align: middle;
   }
-</style>
 
+  .Save-btn:hover {
+    background-color: rgb(178, 214, 250);
+    border-width: 2px;
+  }
+</style>
 <button class="Uber-btn">
   Request now
 </button>
